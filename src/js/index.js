@@ -1,5 +1,5 @@
 // require('./../css/style.scss')
-console.log('Hello World')
+// console.log('Hello World')
 
 const responsiveNav = require('responsive-nav')
 // require('responsive-nav/client/dist/styles/responsive-nav.css')
@@ -16,7 +16,7 @@ const loadPartial = () => {
   const url = link.getAttribute('data-ajax-replace')
 
   const options = {
-    headers: new Headers()
+    headers: new Headers(),
   }
 
   options.headers.append('Content-Type', 'application/json')

@@ -1,3 +1,5 @@
+@import 'responsive-nav/client/dist/styles/responsive-nav.css';
+
 // Design
 //
 // Design rules.
@@ -25,8 +27,6 @@
 //
 // Style guide: Components
 @import './components/alert';
-
-@import 'responsive-nav/client/dist/styles/responsive-nav.css';
 
 body {
   background-color: $color-light;
