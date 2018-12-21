@@ -9,16 +9,16 @@
 
   <title>{{ title }}</title>
 
-  <link href="{% root %}/css/styles.css" rel="stylesheet">
-  <script src="{% root %}/js/script.js" async></script>
+  <link href="{% root %}/css/style.css" rel="stylesheet">
+  <script src="{% root %}/js/index.js" async></script>
 </head>
 <body>
   <!-- include inline svg symbols -->
   <div style="display: none">
     {{ filecontent('../assets/svg/symbols.svg') }}
   </div>
-  <section>
+  <main>
     {% block main %}{% endblock %}
-  </section>
+  </main>
 </body>
 </html>

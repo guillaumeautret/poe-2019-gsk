@@ -1,0 +1,27 @@
+{% extends "../layouts/_default.twig" %}
+
+{% block main %}
+  <header>
+    <h1>Responsive Web Design</h1>
+  </header>
+  <nav id="menu">
+    <ul>
+      <li><a href="">Accueil</a></li>
+      <li><a href="">Rubrique</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+  </nav>
+  <article>
+  {% block article %}
+
+  {% endblock %}
+  </article>
+  <aside>
+    {% block aside %}
+
+    {% endblock %}
+  </aside>
+  <footer>
+    {% include "../partials/footer.twig" %}
+  </footer>
+{% endblock %}
